@@ -1,11 +1,11 @@
 // require("dotenv").config()
+import { app } from "./app.js";
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 import dns from "node:dns/promises";
-import { error } from "node:console";
 dns.setServers(["1.1.1.1"]);
 
-dotenv.config({path: "./.env"})
+dotenv.config({path: "./env"})
 
 
 connectDB()
