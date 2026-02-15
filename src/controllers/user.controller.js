@@ -482,5 +482,4 @@ export {
     updateUserAvatar,
     updateCoverImage,
     getWatchHistory,
-    getWatchHistory
 }
